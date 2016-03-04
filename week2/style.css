@@ -1,0 +1,126 @@
+
+#PageHeader{
+    width:100%;
+    height:140px;
+    top:auto;
+    margin:auto;
+
+
+}
+
+#sitelogo{
+    float:left;
+}
+
+.sitetitle{
+    position: relative;
+    width: 50%;
+    text-align: left;
+    float:right;
+
+}
+
+
+#SiteNavigation{
+    position: relative;
+    width: 67%;
+    text-align: left;
+    float:left;
+    font-family:"Times New Roman", Times, serif;
+    top:180px;
+
+}
+
+
+
+#SiteNavigation li {
+    font-size:17px;
+    display: inline-block;
+    padding-top:10px;
+    margin-left:6%;
+    margin-top:-16px;
+    width:13%;
+
+}
+
+
+
+#SiteNavigation li a {
+    display: block;
+    color: #702f07;
+    text-decoration: none;
+    opacity:0.8;
+}
+
+#SiteNavigation li ul {
+    display: none;
+    width: 22%;
+    background-color:#702f07;
+    z-index:9999;
+
+
+
+}
+
+#SiteNavigation li:hover ul, #SiteNavigation li.hover ul {
+    display: block;
+    position: absolute;
+    margin:0;
+    padding:0;
+
+
+
+
+
+}
+
+
+#SiteNavigation li:hover li a, #SiteNavigation li.hover li a {
+    color: #FFFFCC;
+
+
+}
+
+#SiteNavigation li li a:hover {
+    background-color: #702f07;
+
+}
+
+
+
+
+#sitetitle{
+
+    float:left;
+    padding-left: 20%;
+}
+
+
+
+
+#PageContent{
+    position: relative;
+    width: 20%;
+    text-align: left;
+    float:left;
+    font-family:"Times New Roman", Times, serif;
+    top:240px;
+
+
+}
+
+
+
+
+
+
+
+#PageFooter {
+    position: relative;
+    width: 40%;
+    text-align: left;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    top: 500px;
+
+}
