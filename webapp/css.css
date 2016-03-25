@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin:0;
+    padding:0;
+    background-color:#000000;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+
+
+
+
+
+
+
+}
+
+#wrapper {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+
+/*Header Starts*/
+
+
+#header{
+    width:100%;
+    background-color:#FFFFFF;
+    height:140px;
+    top:auto;
+    margin:auto;
+}
+
+
+/*Header Ends*/
+
+
+/*Logo Starts*/
+
+
+#logo{
+    margin:0;
+    float:left;
+    width:60%;
+    height:40px;
+
+}
+
+.logo{
+    width:50%;
+    height:160px;
+    margin:0;
+    float:left;
+
+
+}
+
+/*Logo Ends*/
+
+
+
+
+
+
+
+/*navigation starts*/
+
+
+#navigation{
+    position: relative;
+    width: 67%;
+    text-align: left;
+    float:right;
+    font-family:"Times New Roman", Times, serif;
+    top:60px;
+
+}
+
+#navigation li {
+    font-size:17px;
+    display: inline-block;
+    padding-top:10px;
+    margin-left:6%;
+    margin-top:-16px;
+    width:13%;
+
+}
+
+
+
+#navigation li a {
+    display: block;
+    color: #702f07;
+    text-decoration: none;
+    opacity:0.8;
+}
+
+#navigation li ul {
+    display: none;
+    width: 22%;
+    background-color:#702f07;
+    z-index:9999;
+
+
+
+}
+
+#navigation li:hover ul, #navigation li.hover ul {
+    display: block;
+    position: absolute;
+    margin:0;
+    padding:0;
+
+
+
+
+
+}
+
+
+#navigation li:hover li a, #navigation li.hover li a {
+    color: #FFFFCC;
+
+
+}
+
+#navigation li li a:hover {
+    background-color: #702f07;
+
+
+
+
+}
+
+/*navigation ends*/
+
+
+
+
+
+
+
+
+
+/*Content*/
+
+#content{
+    width:100%;
+    background-color:#FFFFFF;
+    height:880px;
+
+}
+
+
+
+
+
+
+h1{
+    padding-top:40px;
+    text-align: center;
+
+
+
+
+
+}
+
+
+h3{
+    padding-top:40px;
+    margin-top:0;
+
+}
+
+
+
+
+
+
+
+
+
+/*Content ends*/
+
+
+
+
+
+
+/*Start of footer*/
+
+
+
+
+#footer_container{
+
+
+
+
+}
+
+
+
+
+
+#footer1{
+    bottom: 0;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color:#000;
+    opacity:0.8;
+
+
+
+}
+
+.footer_logo{
+    width:7%;
+    height:60px;
+    float:left;
+    margin:0;
+    padding-left:10%;
+    padding-top:20px;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.contactus{
+    margin:auto;
+    position:relative;
+    color:#FFFFCC;
+    width:15%;;
+    top:17px;
+    float:left;
+    left:3%;
+
+
+
+
+
+}
+
+
+
+
+
+
+#footer{
+    bottom: 0;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background-color:#000000;
+
+
+}
+
+.copyright{
+    margin:auto;
+    position:relative;
+    float:left;
+    color:#FFFFFF;
+    width:28%;
+    left:3%;
+    top:10px;
+
+}
+
+
+.siteowner{
+    margin:auto;
+    position:relative;
+    float:right;
+    color:#FFFFFF;
+    width:20%;
+    right:1%;
+    top:10px;
+
+}
+
+
+/*End of footer*/
+/*End of main page content*/
+
+
+/*Start of contact page*/
+
+
+
+.contact_form{
+    position:relative;
+    left:8%;
+    width:100%%;
+    padding-top:40px;
+    float:left;
+
+}
+
+.contact_details{
+    padding-top:50px;
+    padding-left:60%;
+    float:right;
+    width:40%
+
+
+}
+
+
+.contact_map{
+    float:right;
+    width:40%;
+    padding-right:7%;
+
+
+}
+
+
+
+
+
+
+/*End of contact page*/
+
+
+
+
+/*start of services page*/
+
+
+
+
+
+
+/*end of services page*/
+
+
+
+
+
+
+
+
